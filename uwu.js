@@ -47,7 +47,8 @@ let schedule = [
 ];
 
 function asdf() {
-    alert("i love u");
+    var audio = new Audio('bell.mp3');
+    audio.play();
     console.debug(
         "avah is the cutest and smartest boy in the whole wide world",
     );
@@ -82,6 +83,8 @@ setInterval(function () {
             more.getMinutes() == schedule[i].time.minute &&
             more.getSeconds() == schedule[i].time.second
         ) {
+            var bell = new Audio('bell.mp3');
+            bell.play();
             console.debug("yay");
         }
     }
