@@ -1,4 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=New+Rocker&display=swap');
+
+html {
+    height: 100%;
+    width: 100%;
+}
+
 body {
+    font-family: "New Rocker";
+    font-size: 20pt;
+    height: 100%;
+    width: 100%;
+    margin: 0;
     background-color: #001231;
-    color: #eeeeee;
+    color: #F4D6CC;
+    text-align: center;
+}
+
+h1 {
+    font-family: "Amatic SC";
+    font-weight: 700;
+    font-size: 34pt;
+    width: 100%;
+    margin-top: 0;
+    color: #F4D6CC;
+    background-color: #066891;
 }
