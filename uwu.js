@@ -1,4 +1,5 @@
-let today = new Date("March 13, 2024 00:00:00"); // whatevers after the 1 is the day
+let today = new Date("March 17, 2024 00:00:00"); // whatevers after the 1 is the day
+today = new Date(new Date().setHours(0,0,0,0));
 
 class time {
     constructor(_hour, _minute, _second = 0) {
