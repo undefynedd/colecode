@@ -11,11 +11,11 @@ body {
     height: 100%;
     width: 100%;
     margin: 0;
-    background: linear-gradient( rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.6) ), url("./media/6.jpg");
-    background-size:cover;
-    background-repeat: no-repeat;
+    background: linear-gradient( rgba(80, 0, 0, 0.8), rgba(80, 0, 0, 0.5) ), url("https://upload.wikimedia.org/wikipedia/en/9/9f/RHS_Front_Entrance.JPG");
+    background-size: cover;
+    background-position: center;
     background-color: #001231;
-    color: #F4D6CC;
+    color: #ffffff;
     text-align: center;
 }
 
@@ -25,5 +25,5 @@ h1 {
     font-size: 34pt;
     width: 100%;
     margin-top: 0;
-    color: #F4D6CC;
+    color: #ffffff;
 }
